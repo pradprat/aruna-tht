@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Box, Button, Checkbox, HStack, Input, Text, useCheckbox } from "@chakra-ui/react";
 
@@ -10,7 +9,6 @@ function App() {
     const [numcheck1, setnumcheck1] = useState(false);
     const [numcheck2, setnumcheck2] = useState(false);
     const [numcheck3, setnumcheck3] = useState(false);
-    const { state } = useCheckbox();
     const [result, setresult] = useState(0);
     useEffect(() => {
         console.log(numcheck1, numcheck2, numcheck3);
