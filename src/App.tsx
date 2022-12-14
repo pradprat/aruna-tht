@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import { Box, Button, Checkbox, HStack, Input, Text, useCheckbox } from "@chakra-ui/react";
+import { Box, Button, Checkbox, HStack, Input, Text } from "@chakra-ui/react";
 
 function App() {
     const [num1, setnum1] = useState(0);
